@@ -1,0 +1,19 @@
+c_ex1
+yair.shemer
+204371983
+######
+
+Description:
+This exercise was meant to learn better how to receive an input from the user, and work with
+arrays, pointers and such.
+Firstly, after getting the input, I had to make an array of double from an array of chars.
+The validity checks that were necessary made the code look not so elegant, but had to be done.
+After creating 2 arrays with double elements, the process started - first, center the arrays
+so that the elements are in the center of the array. After that I had to normalize the values
+in the arrays so they will sum up to 1. Then the convolution had to be done. I used swap function
+in order to make convolution between g*h and place it in a result array, and normalize it.
+The swap was in order to now make the convolution between the next h and the g*h, which was placed
+in another array in the first place, and the swap was helping me running the convolution in a loop.
+According to the normalized result, the print of asterisk was made, as they represented the weight
+of each element of the array.
+
